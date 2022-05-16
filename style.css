@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alfa+Slab+One&family=Arizonia&family=Bangers&family=Berkshire+Swash&family=Concert+One&family=Dancing+Script:wght@700&family=Fleur+De+Leah&family=Fredericka+the+Great&family=Great+Vibes&family=Henny+Penny&family=Imperial+Script&family=Mea+Culpa&family=Oleo+Script+Swash+Caps:wght@400;700&family=Orelega+One&family=Oswald:wght@500;700&family=Permanent+Marker&family=Playfair+Display:ital,wght@0,800;0,900;1,400;1,600;1,700;1,800;1,900&family=Raleway+Dots&family=Roboto:ital,wght@0,400;0,700;0,900;1,100;1,300&family=Smokum&family=Special+Elite&family=Stint+Ultra+Condensed&family=Water+Brush&family=Yeseva+One&family=Zen+Loop:ital@0;1&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  padding: 5rem;
+}
+h1 {
+  text-align: center;
+  color: aquamarine;
+  font-family: "Permanent Marker", cursive;
+  font-size: 4rem;
+  word-spacing: 3rem;
+  letter-spacing: 2rem;
+}
+
+div {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  margin: 5rem;
+}
+.container :first-child {
+  background-color: rgb(99, 94, 94);
+  box-shadow: 0 1px 2rem 0.4rem rgba(128, 128, 128, 2);
+}
+
+.shadow2 {
+  background-color: rgb(201, 56, 56);
+  box-shadow: 5px 5px 15px 5px #a87b7b;
+}
+
+.shadow3 {
+  background-color: black;
+  border: 0.2rem solid rgba(110, 220, 217, 0.7);
+  box-shadow: inset 0 0 1.7rem 0 rgba(0, 255, 255, 0.9),
+    0 0 1.5rem 0 rgba(0, 255, 255, 0.9), 0 0 1.5rem 0 rgba(0, 255, 255, 0.9);
+  border-radius: 50%;
+}
+
+/* .shadow4 {
+  -moz-box-align: center;
+  width: 100px;
+  height: 100px;
+  background-color: chartreuse;
+  box-shadow: 0px 0px 0px 16px hsl(125, 55%, 31%),
+    0px 0px 0px 32px rgba(23, 79, 28, 0.9),
+    0px 0px 0px 46px rgba(34, 58, 36, 0.54);
+  margin: 2rem;
+} */
+.shadow4 {
+  background-color: blueviolet;
+  border: 0.1rem solid #61427e;
+  box-shadow: -4px -4px 25px 0px rgba(120, 105, 179, 0.76),
+    -4px -3px 25px 0px rgba(120, 105, 179, 0.96);
+}
+
+.shadow5 {
+  background-color: rgb(21, 39, 4);
+
+  box-shadow: rgba(28, 75, 38, 0.4) 0px 0px 0px 2px,
+    rgba(28, 75, 38, 0.4) 0px 0px 0px 2px,
+    rgba(64, 129, 94, 0.65) -6px 4px 8px 6px,
+    rgba(64, 129, 94, 0.65) -6px 4px 8px 6px,
+    rgba(100, 207, 148, 0.95) 0px 0px 0px 2px inset,
+    rgba(100, 207, 148, 0.95) 0px 0px 0 2px inset;
+}
+
+.shadow6 {
+  background-color: gold;
+  box-shadow: -10px 0px 20px #b69710, -10px 0px 20px #b69710,
+    -10px 0px 20px #b69710;
+}
+.shadow7 {
+  background-color: darksalmon;
+  border: 1rem solid darksalmon;
+  /* border-radius: 50%; */
+  box-shadow: 0px 10px 0 10px black, 0px 0 0 20px darksalmon,
+    10px 0px 0 30px black, 0 0 0 40px darksalmon, 0px 10px 0 50px black,
+    0 0 0 60px darksalmon, 10px 0px 0 70px black, 0 0 0 80px darksalmon,
+    0px 10px 0 90px black, 0 0 0 100px darksalmon, 0px 0px 0 110px black,
+    0 0 0 120px darksalmon;
+}
